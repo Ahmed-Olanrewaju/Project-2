@@ -89,7 +89,7 @@ LEMP stack should now be completely set up
 
 `Testing PHP with Nginx public IP info php`
 
-![Testing PHP with Nginx public IP info php](image.jpg)
+![Testing PHP with Nginx public IP info php](./Images/php.png)
 
 `404 Not Found`
 
@@ -126,6 +126,12 @@ To do list" and configure access to it, so the Nginx website would be able to qu
 `SELECT FROM example_database.todo_list`
 
 ![SELECT FROM example_database.todo_list;](./Images/SELECT-FROM-example_database.todo_list.png)
+
+The following PHP script connects to the MySQL database and queries for the content of the todo_list table, displays the results in a list. If there is a problem with the database connection, it will throw an exception.
+
+![`TODO`](./Images/TODO.png)
+
+
 
 
 
